@@ -16,6 +16,22 @@ main {
     width: 100%;
 }
 
+.carousel-inner img {
+    width: 100%;
+    height: 650px;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    padding-top: 5%;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d; 
+    font-family: 'Newsreader', serif;
+    font-family: 'Open Sans', sans-serif;   
+}
+
 .navbar a {
     color: var(--background-color) !important;
     font-size: larger;
@@ -34,17 +50,9 @@ main {
 }
 
 #landing {
-    background-color: #000000;
-    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
-    padding: 10rem 10rem;
-    height: 650px;
-    width: calc(100%-100px);
-    font-family: 'Newsreader', serif;
-    font-family: 'Open Sans', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-bottom: 2rem;
 }
+
 
 #landing h1 {
     color: var(--background-color);
@@ -52,19 +60,17 @@ main {
     font-size: 3.1rem;
 }
 
-#landing .company-item a {
+#landing .contact {
     background-color: #1e7b1e;
     color: var(--background-color);
     padding: 10px;
     margin: 1rem 0;
 }
 
-#landing .company-item a:hover {
-    transform: translateY(-10%);
+#landing .contact:hover {
     text-decoration: none;
     background-color: #1e7b1e;
     color: var(--background-color);
-    transition: 100ms linear;
 }
 
 #landing .company-item {
@@ -90,7 +96,7 @@ main {
     display: flex;
     flex-wrap: row wrap;
     justify-content: space-around;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 
 
@@ -114,7 +120,7 @@ main {
 
 /*----- Mobile Styles -----*/
 @media only screen and (max-width: 768px) {
-    
+    /*
     #landing {
         background-color: #000000;
         background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
@@ -129,6 +135,7 @@ main {
         width: 100%;
         max-width: 100%;
     }
+    */
     
     #satisfied-customers {
         display: flex;
