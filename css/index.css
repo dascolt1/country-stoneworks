@@ -39,8 +39,6 @@ main {
     padding: 10rem 10rem;
     height: 650px;
     width: calc(100%-100px);
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 60%, 0 95%);
     font-family: 'Newsreader', serif;
     font-family: 'Open Sans', sans-serif;
     display: flex;
