@@ -8,6 +8,7 @@ window.addEventListener('scroll', function (e) {
     }
 
     if(top < 60) {
+        nav.style.transition = 'opacity 300ms';
         nav.style.opacity = '1';
     }
     
