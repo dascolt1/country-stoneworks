@@ -173,6 +173,7 @@ main {
     .carousel-caption {
        background-color: none;
        height: 80%;
+       width: 70%;
     }
 
     .carousel-inner img {
@@ -181,12 +182,12 @@ main {
     }
 
     .carousel-caption h1 {
-        font-size: 1rem !important;
+        font-size: 1.5rem !important;
         max-width: 100%;
     }
 
     .carousel-caption p {
-        font-size: .7rem !important;
+        font-size: .8rem !important;
         max-width: 100%;
     }
 
