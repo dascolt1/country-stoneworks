@@ -16,9 +16,17 @@ main {
     width: 100%;
 }
 
+#my-carousel {
+    max-width: 100%;
+}
+
 .carousel-inner img {
     width: 100%;
     height: 650px;
+}
+
+.carousel-indicators .active {
+    background-color: #1e7b1e !important;
 }
 
 .carousel-caption {
@@ -29,11 +37,24 @@ main {
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d; 
     font-family: 'Newsreader', serif;
-    font-family: 'Open Sans', sans-serif;   
+    font-family: 'Open Sans', sans-serif;  
+    background-color: #000000; 
+    opacity: .85;
+    text-align: left;
+    padding: 2rem;
+    height: 50%;
+    width: 50%;
+    max-width: 100%;
 }
 
 .carousel-caption h1 {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+.carousel-caption p {
+    padding-bottom: 1rem;
+    font-size: large;
+    color: #bfc1c2;
 }
 
 .navbar a {
@@ -144,12 +165,13 @@ main {
     }
     */
 
-    .navbar a {
-
-    }
     #landing {
         padding-bottom: 2rem;
         margin-top: 3rem;
+    }
+
+    .carousel-caption {
+       
     }
 
     .carousel-inner img {
@@ -158,7 +180,27 @@ main {
     }
 
     .carousel-caption h1 {
-        font-size: 2rem !important;
+        font-size: 1rem !important;
+        max-width: 100%;
+    }
+
+    .carousel-caption p {
+        font-size: .7rem !important;
+        max-width: 100%;
+    }
+
+    #landing .contact {
+        background-color: #1e7b1e;
+        color: var(--background-color);
+        padding: 10px;
+        margin: 1rem 0;
+        font-size: .5rem;
+    }
+    
+    #landing .contact:hover {
+        text-decoration: none;
+        background-color: #1e7b1e;
+        color: var(--background-color);
     }
     
     #satisfied-customers {
