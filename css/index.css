@@ -32,6 +32,10 @@ main {
     font-family: 'Open Sans', sans-serif;   
 }
 
+.carousel-caption h1 {
+    padding-bottom: 2rem;
+}
+
 .navbar a {
     color: var(--background-color) !important;
     font-size: larger;
