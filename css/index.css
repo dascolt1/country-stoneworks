@@ -42,7 +42,7 @@ main {
     font-family: 'Newsreader', serif;
     font-family: 'Open Sans', sans-serif;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
