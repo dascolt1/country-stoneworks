@@ -1,0 +1,155 @@
+:root {
+    --primary-color: #6699CC;
+    --text-color: #36454f;
+    --background-color: #f5faff;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #bfc1c2;
+    max-width: 100%;
+}
+
+main {
+    max-width: 100%;
+    width: 100%;
+}
+
+.navbar a {
+    color: var(--background-color) !important;
+    font-size: larger;
+    padding-top: 2rem;
+}
+
+.navbar a:hover {
+    transform: translateY(-7%);
+    transition: 70ms linear;
+}
+
+.navbar {
+    background-color: transparent;
+    font-family: 'Newsreader', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#landing {
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+    padding: 10rem 10rem;
+    height: 650px;
+    width: calc(100%-100px);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 60%, 0 95%);
+    font-family: 'Newsreader', serif;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#landing h1 {
+    color: var(--background-color);
+    font-weight: 500;
+    font-size: 3.1rem;
+}
+
+#landing .company-item a {
+    background-color: #1e7b1e;
+    color: var(--background-color);
+    padding: 10px;
+    margin: 1rem 0;
+}
+
+#landing .company-item a:hover {
+    transform: translateY(-10%);
+    text-decoration: none;
+    background-color: #1e7b1e;
+    color: var(--background-color);
+    transition: 100ms linear;
+}
+
+#landing .company-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10rem;
+    transform: translateY(20%);
+}
+
+#landing .company-logo {
+    transform: translateY(10%);
+}
+
+#landing .company-logo img{
+    width: 200px; 
+    height: 200px; 
+    margin-bottom: 10rem;
+}
+
+#satisfied-customers {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+}
+
+
+#satisfied-customers .my-card {
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+    padding: 2rem;
+    color: var(--background-color);
+    margin: 0 1rem;
+    width: calc(33% - 10px);
+    box-shadow: 0px 8px 12px rgba(0,0,0,0.35);
+}
+
+#satisfied-customers .fa-star, #satisfied-customers .fa-star-half-o, #satisfied-customers .fa-star-o{
+    color: yellow;
+}
+
+.customer-name{
+    color: #bfc1c2;
+}
+
+/*----- Mobile Styles -----*/
+@media only screen and (max-width: 768px) {
+    
+    #landing {
+        background-color: #000000;
+        background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+        padding: 10rem 10rem;
+        height: 650px;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 60%, 0 95%);
+        font-family: 'Newsreader', serif;
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    #satisfied-customers {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 3rem;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #satisfied-customers .my-card {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    #landing .company-logo {
+        display: none;
+    }
+}
