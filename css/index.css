@@ -50,13 +50,13 @@ main {
 
 .navbar {
     background-color: #000000;
-    opacity: 0.85 !important;
     font-family: 'Newsreader', serif;
     font-family: 'Open Sans', sans-serif;
 }
 
 #landing {
     padding-bottom: 2rem;
+    margin-top: 6rem;
 }
 
 
@@ -142,6 +142,10 @@ main {
         max-width: 100%;
     }
     */
+    #landing {
+        padding-bottom: 2rem;
+        margin-top: 3rem;
+    }
 
     .carousel-inner img {
         width: 100%;
