@@ -40,6 +40,7 @@ main {
     color: var(--background-color) !important;
     font-size: larger;
     padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .navbar a:hover {
@@ -48,7 +49,8 @@ main {
 }
 
 .navbar {
-    background-color: transparent;
+    background-color: #000000;
+    opacity: 0.85 !important;
     font-family: 'Newsreader', serif;
     font-family: 'Open Sans', sans-serif;
 }
