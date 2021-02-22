@@ -171,7 +171,8 @@ main {
     }
 
     .carousel-caption {
-       
+       background-color: none;
+       height: 80%;
     }
 
     .carousel-inner img {
@@ -187,6 +188,10 @@ main {
     .carousel-caption p {
         font-size: .7rem !important;
         max-width: 100%;
+    }
+
+    .caption {
+        max-height: 100%;
     }
 
     #landing .contact {
