@@ -10,6 +10,4 @@ window.addEventListener('scroll', function (e) {
         nav.style.opacity = '1';
     }
     
-})
-
-console.log("working")
+});

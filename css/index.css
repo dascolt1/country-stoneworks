@@ -39,8 +39,8 @@ main {
 .navbar a {
     color: var(--background-color) !important;
     font-size: larger;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 2rem 0rem;
+    margin-right: .5rem;
 }
 
 .navbar a:hover {
@@ -50,6 +50,7 @@ main {
 
 .navbar {
     background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
     font-family: 'Newsreader', serif;
     font-family: 'Open Sans', sans-serif;
 }
@@ -142,6 +143,10 @@ main {
         max-width: 100%;
     }
     */
+
+    .navbar a {
+
+    }
     #landing {
         padding-bottom: 2rem;
         margin-top: 3rem;
