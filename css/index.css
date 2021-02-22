@@ -49,6 +49,8 @@ main {
 
 .carousel-caption h1 {
     padding-bottom: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 .carousel-caption p {
@@ -93,6 +95,8 @@ main {
     color: var(--background-color);
     padding: 10px;
     margin: 1rem 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 #landing .contact:hover {
@@ -117,6 +121,15 @@ main {
     width: 200px; 
     height: 200px; 
     margin-bottom: 10rem;
+}
+
+.green {
+    color: #1e7b1e;
+}
+
+.green:hover {
+    color: #1e7b1e;
+    text-decoration: none;
 }
 
 #satisfied-customers {
@@ -200,7 +213,7 @@ main {
         color: var(--background-color);
         padding: 10px;
         margin: 1rem 0;
-        font-size: .5rem;
+        font-size: .9rem;
     }
     
     #landing .contact:hover {
