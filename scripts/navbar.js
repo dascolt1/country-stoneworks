@@ -3,7 +3,7 @@ window.addEventListener('scroll', function (e) {
     let nav = document.querySelector('.navbar');
 
     if(top > 70){
-        nav.style.opacity = '.85';
+        nav.style.opacity = '.7';
     }
 
     if(top < 70) {

@@ -41,6 +41,7 @@ main {
     font-size: larger;
     padding: 2rem 0rem;
     margin-right: .5rem;
+    text-transform: uppercase;
 }
 
 .navbar a:hover {
@@ -49,10 +50,9 @@ main {
 }
 
 .navbar {
-    background-color: #000000;
-    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
-    font-family: 'Newsreader', serif;
+    background-color: #0a0502;
     font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 #landing {
