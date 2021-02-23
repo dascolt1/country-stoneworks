@@ -20,6 +20,10 @@ main {
     width: 100%;
 }
 
+.upper {
+    text-transform: uppercase;
+}
+
 #my-carousel {
     max-width: 100%;
 }
@@ -145,6 +149,7 @@ main {
     display: flex;
     flex-wrap: row wrap;
     justify-content: space-around;
+    align-items: flex-start;
     padding-bottom: 2rem;
 }
 
