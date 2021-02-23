@@ -60,7 +60,7 @@ main {
 .carousel-caption p {
     padding-bottom: 1rem;
     font-size: large;
-    color: #bfc1c2;
+    color: #B1AFAF;
 }
 
 .navbar a {
@@ -107,6 +107,7 @@ main {
     text-decoration: none;
     background-color: #1e7b1e;
     color: var(--background-color);
+    transform: scale(1.1) !important;
 }
 
 #landing .company-item {
@@ -134,6 +135,10 @@ main {
 .green:hover {
     color: #1e7b1e;
     text-decoration: none;
+}
+
+.caption .below {
+    padding-top: -1rem;
 }
 
 #satisfied-customers {
@@ -204,7 +209,7 @@ main {
     }
 
     .carousel-caption p {
-        font-size: .8rem !important;
+        font-size: .9rem !important;
         max-width: 100%;
     }
 
@@ -243,5 +248,21 @@ main {
 
     #landing .company-logo {
         display: none;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px)
+and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation:portrait){
+    
+    .carousel-caption h1 {
+        padding-bottom: .5rem;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .carousel-caption p {
+        padding-bottom: .3rem;
+        font-size: large;
+        color: #B1AFAF;
     }
 }
