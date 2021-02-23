@@ -11,6 +11,10 @@ body {
     max-width: 100%;
 }
 
+html {
+    background-color: #bfc1c2;
+}
+
 main {
     max-width: 100%;
     width: 100%;
