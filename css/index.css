@@ -177,9 +177,26 @@ main {
     padding-top: 3rem;
 }
 
-.gallery h1 {
-    text-align: center;
+.project-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: .5rem 5rem;
+}
+
+.project-heading a{
+    color: #1a1a1a;
+}
+
+.project-heading a:hover{
+    color: #1e7b1e;
+    text-decoration: none;
+}
+
+.gallery .project-heading h1 {
     font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 .projects {
@@ -396,6 +413,13 @@ footer {
         grid-row-start: 6;
         grid-row-end: 9;
         box-shadow: 0px 8px 12px rgba(0,0,0,0.35);
+    }
+
+    .project-heading {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        margin: .5rem 2.5rem;
     }
 }
 
