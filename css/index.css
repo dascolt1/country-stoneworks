@@ -356,4 +356,8 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orient
         font-size: large;
         color: #B1AFAF;
     }
+
+    .footer h3 {
+        font-size: 1em;
+    }
 }
