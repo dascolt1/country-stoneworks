@@ -2,7 +2,7 @@
 window.addEventListener('scroll', function (e) {
     let top = this.scrollY;
     let nav = document.querySelector('.navbar');
-    let breakPoint = 60;
+    let breakPoint = 70;
 
     if(top > breakPoint){
         nav.style.transition = 'opacity 800ms'; 
