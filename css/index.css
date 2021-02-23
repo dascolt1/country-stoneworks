@@ -191,6 +191,8 @@ main {
 .project-heading a:hover{
     color: #1e7b1e;
     text-decoration: none;
+    transform: translateX(10%);
+    transition: 70ms linear;
 }
 
 .gallery .project-heading h1 {
