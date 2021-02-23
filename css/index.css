@@ -145,14 +145,14 @@ main {
 }
 
 #satisfied-customers {
-    padding: 2rem;
+    padding: 5rem 2rem;
+    margin-top: -2rem;
     display: flex;
     flex-wrap: row wrap;
     justify-content: space-around;
     align-items: flex-start;
-    padding-bottom: 2rem;
+    background-color: #1a1a1a;
 }
-
 
 #satisfied-customers .my-card {
     background-color: #000000;
@@ -173,6 +173,14 @@ main {
 }
 
 /*----- Projects styles -----*/
+.gallery {
+    padding-top: 3rem;
+}
+
+.gallery h1 {
+    text-align: center;
+    font-size: 2em;
+}
 
 .projects {
     display: grid;
@@ -180,7 +188,7 @@ main {
     grid-template-rows: repeat(8, 5vw);
     grid-gap: 1rem;
     margin: 2rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
     padding-bottom: 2rem;
 }
 
@@ -225,7 +233,7 @@ main {
 
 /*----- Footer Styles -----*/
 footer {
-    background-color: #0a0502;
+    background-color: #1a1a1a;
     color: var(--background-color);
     text-align: center;
     padding-top: 4em;
@@ -324,6 +332,7 @@ footer {
     
     #satisfied-customers {
         display: flex;
+        padding: 1rem;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -346,7 +355,7 @@ footer {
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: repeat(8, 5vw);
         grid-gap: 1rem;
-        margin: 2rem;
+        margin: .9rem;
         padding-top: 2rem;
         padding-bottom: 2rem;
     }
