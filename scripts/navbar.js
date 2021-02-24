@@ -16,10 +16,9 @@ window.addEventListener('scroll', function (e) {
     }
 
     //dynamic transition
-    if(top < 2000){
+    if(top > 1650){
         getInTouch.classList.add('fadeInLeft')
     }
-
 });
 
 //closes navbar when nav item is clicked

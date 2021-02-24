@@ -326,7 +326,7 @@ main {
 }
 
 .contact-form {
-	width: 50vw;
+	width: 40vw;
 	margin: 0 auto;
 	padding: 4em 0;
     font-size: 15px;
@@ -461,8 +461,25 @@ footer {
 
 .footer p {
     padding-top: 1em;
-    font-size: 1.2em;
-    
+    font-size: 1.2em;   
+}
+
+footer .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .icons a{
+    color: #B1AFAF;
+    font-size: 2.5rem;
+    padding: 0 1rem;
+}
+
+footer .icons a:hover{
+    transform: translateY(-10%);
+    transition: 70ms linear;
+    color: var(--background-color);
 }
 
 
