@@ -180,12 +180,12 @@ main {
  }
  
  .fadeInLeft {
-    animation: fadeInLeft 2s;
-    -moz-animation: fadeInLeft 2s; /* Firefox */
-    -webkit-animation: fadeInLeft 2s; /* Safari and Chrome */
-    -o-animation: fadeInLeft 2s;
- -webkit-animation-name: fadeInLeft;
- animation-name: fadeInLeft;
+    animation: fadeInLeft 3.5s;
+    -moz-animation: fadeInLeft 3.5s; /* Firefox */
+    -webkit-animation: fadeInLeft 3.5s; /* Safari and Chrome */
+    -o-animation: fadeInLeft 3.5s;
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
  } 
 #satisfied-customers {
     padding: 3rem 2rem;
@@ -393,7 +393,7 @@ footer {
     }
 
     .reviews h1 {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
     
     #satisfied-customers {
