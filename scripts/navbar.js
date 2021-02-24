@@ -4,6 +4,7 @@ window.addEventListener('scroll', function (e) {
     let nav = document.querySelector('.navbar');
     let getInTouch = document.querySelector('.hook');
     let breakPoint = 70;
+    let contactFade = 1650
 
     if(top > breakPoint){
         nav.style.transition = 'opacity 800ms'; 
@@ -16,8 +17,12 @@ window.addEventListener('scroll', function (e) {
     }
 
     //dynamic transition
-    if(top > 1650){
-        getInTouch.classList.add('fadeInLeft')
+    if(top > contactFade){
+        getInTouch.classList.add('fadeInLeft');
+    }
+
+    if(top < contactFade) {
+        getInTouch.classList.remove('fadeInLeft');
     }
 });
 
