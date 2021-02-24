@@ -2,6 +2,7 @@
 window.addEventListener('scroll', function (e) {
     let top = this.scrollY;
     let nav = document.querySelector('.navbar');
+    let getInTouch = document.querySelector('.hook');
     let breakPoint = 70;
 
     if(top > breakPoint){
@@ -13,7 +14,12 @@ window.addEventListener('scroll', function (e) {
         nav.style.transition = 'opacity 300ms';
         nav.style.opacity = '1';
     }
-    
+
+    //dynamic transition
+    if(top < 2000){
+        getInTouch.classList.add('fadeInLeft')
+    }
+
 });
 
 //closes navbar when nav item is clicked
@@ -26,3 +32,4 @@ $(document).ready(function () {
         }
     });
 });
+
