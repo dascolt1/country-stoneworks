@@ -144,14 +144,56 @@ main {
     padding-top: -1rem;
 }
 
-#satisfied-customers {
-    padding: 5rem 2rem;
+.reviews {
+    background-color: #1a1a1a;
     margin-top: -2rem;
+    padding-bottom: 2rem;
+}
+
+.reviews h1 {
+    padding-top: 4rem;
+    padding-left: 2rem;
+    color: var(--background-color);
+    font-size: 2rem;
+}
+
+@-webkit-keyframes fadeInLeft {
+    0% {
+       opacity: 0;
+       -webkit-transform: translateX(-2rem);
+    }
+    100% {
+       opacity: 1;
+       -webkit-transform: translateX(0);
+    }
+ }
+ 
+ @keyframes fadeInLeft {
+    0% {
+       opacity: 0;
+       transform: translateX(-2rem);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ }
+ 
+ .fadeInLeft {
+    animation: fadeInLeft 2s;
+    -moz-animation: fadeInLeft 2s; /* Firefox */
+    -webkit-animation: fadeInLeft 2s; /* Safari and Chrome */
+    -o-animation: fadeInLeft 2s;
+ -webkit-animation-name: fadeInLeft;
+ animation-name: fadeInLeft;
+ } 
+#satisfied-customers {
+    padding: 3rem 2rem;
     display: flex;
     flex-wrap: row wrap;
     justify-content: space-around;
     align-items: flex-start;
-    background-color: #1a1a1a;
+    
 }
 
 #satisfied-customers .my-card {
@@ -348,6 +390,10 @@ footer {
         text-decoration: none;
         background-color: #1e7b1e;
         color: var(--background-color);
+    }
+
+    .reviews h1 {
+        font-size: 1.5rem;
     }
     
     #satisfied-customers {
