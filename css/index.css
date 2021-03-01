@@ -447,7 +447,7 @@ textarea::placeholder {
 
 #profile .portfolio {
     max-width: 100%;
-    width: 60%;
+    width: 65%;
     text-align: center;
     display: flex;
     flex-wrap: row wrap;
@@ -506,10 +506,10 @@ textarea::placeholder {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Rubik', sans-serif;
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 #qualities .traits > div {
-    padding: 2rem;
     width: 30%;
 }
 
@@ -517,6 +517,37 @@ textarea::placeholder {
     line-height: 2em;
     color: #e5e4e2;
     font-size: larger;
+}
+
+#overview {
+    background-color: var(--section-background);
+    color: var(--background-color);
+    padding: 3rem 1rem;
+}
+
+#overview .overview-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    padding: 3rem 0;
+}
+
+#overview .overview-flex > div {
+    padding-left: 6rem;
+}
+
+#overview .overview-flex > div > h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: smaller;
+}
+
+
+#overview .overview-flex > div > p{
+    font-weight: 600;
+    font-size: 1.5rem;
 }
 
 /*----- Footer Styles -----*/
@@ -792,6 +823,20 @@ footer .icons a:hover{
     #qualities .traits > div {
         padding: 2rem;
         width: 80%;
+    }
+
+    #overview .overview-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    #overview .overview-flex > div{
+        margin-bottom: 1rem;
+        padding-left: 0;
     }
 }
 
