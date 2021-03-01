@@ -483,6 +483,42 @@ textarea::placeholder {
     font-family: 'Open Sans', sans-serif;
 }
 
+#qualities {
+    max-width: 100%;
+    width: 100%;
+    padding: 1.5rem 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.z5OmCvOISFReA0dvuCf3SAHaEK%26pid%3DApi&f=1");
+    background-position: center;
+}
+
+#qualities .traits {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 5rem 0;
+    flex-shrink: 1;
+    color: white;
+}
+
+#qualities .traits h2 {
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+#qualities .traits > div {
+    padding: 2rem;
+    width: 30%;
+}
+
+#qualities .traits > div > p{
+    line-height: 2em;
+    color: #e5e4e2;
+    font-size: larger;
+}
+
 /*----- Footer Styles -----*/
 footer {
     background-color: #1a1a1a;
@@ -742,6 +778,20 @@ footer .icons a:hover{
         margin: 1rem 1rem;
         border-radius: 50%;
         box-shadow: 0px 8px 12px rgba(0,0,0,0.35);
+    }
+
+    #qualities .traits {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem 0;
+        flex-shrink: 1;
+    }
+
+    #qualities .traits > div {
+        padding: 2rem;
+        width: 80%;
     }
 }
 
