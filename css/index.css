@@ -522,7 +522,7 @@ textarea::placeholder {
 #overview {
     background-color: var(--section-background);
     color: var(--background-color);
-    padding: 3rem 1rem;
+    padding: 6rem 1rem;
 }
 
 #overview .overview-flex {
@@ -684,6 +684,7 @@ footer .icons a:hover{
     #satisfied-customers .my-card {
         width: 100%;
         margin: 1rem 0;
+        height: auto;
     }
 
     #landing .company-logo {
@@ -837,6 +838,10 @@ footer .icons a:hover{
     #overview .overview-flex > div{
         margin-bottom: 1rem;
         padding-left: 0;
+    }
+
+    .bottom-room {
+        padding-bottom: 3rem;
     }
 }
 
