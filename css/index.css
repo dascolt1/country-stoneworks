@@ -148,7 +148,7 @@ main {
 }
 
 .caption .below {
-    padding-top: -1rem;
+    padding-top: -.8rem;
 }
 
 .reviews {
@@ -645,7 +645,7 @@ footer .icons a:hover{
     }
 
     .carousel-caption p {
-        font-size: .7rem !important;
+        font-size: .8rem !important;
         max-width: 100%;
     }
 
