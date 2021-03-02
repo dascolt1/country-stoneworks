@@ -432,7 +432,7 @@ textarea::placeholder {
 
 /*------ About Us Styles --------*/
 #profile {
-    padding: 10rem 3rem;
+    padding: 8rem 3rem;
     background-color: var(--section-background);
     
 }
@@ -645,7 +645,7 @@ footer .icons a:hover{
     }
 
     .carousel-caption p {
-        font-size: .9rem !important;
+        font-size: .7rem !important;
         max-width: 100%;
     }
 
@@ -857,7 +857,7 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orient
     
     .carousel-caption p {
         padding-bottom: .3rem;
-        font-size: large;
+        font-size: .7rem !important;
         color: #B1AFAF;
     }
 
