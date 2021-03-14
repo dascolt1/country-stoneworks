@@ -73,6 +73,12 @@ main {
     color: #B1AFAF;
 }
 
+.carousel-inner .carousel-item {
+    transition: -webkit-transform 2s ease;
+    transition: transform 2s ease;
+    transition: transform 2s ease, -webkit-transform 2s ease;
+  }
+
 .navbar a {
     color: var(--background-color) !important;
     font-size: larger;
@@ -449,10 +455,6 @@ textarea::placeholder {
     max-width: 100%;
     width: 65%;
     text-align: center;
-    display: flex;
-    flex-wrap: row wrap;
-    justify-content: center;
-    align-items: center;
     background-color: #000000;
     background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
     padding: 2.5rem;
@@ -470,6 +472,8 @@ textarea::placeholder {
 #profile .portfolio img {
     width: 300px;
     height: 225px;
+    float: left;
+    shape-outside: ellipse();
     margin-right: 1.8rem;
     border-radius: 50%;
     -moz-border-radius: 50%;
@@ -481,6 +485,7 @@ textarea::placeholder {
     line-height: 1.7rem;
     font-family: 'Newsreader', serif;
     font-family: 'Open Sans', sans-serif;
+    text-align: left;
 }
 
 #qualities {
