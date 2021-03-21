@@ -31,6 +31,10 @@ main {
     text-transform: uppercase;
 }
 
+.active {
+    color: var(--green) !important;
+}
+
 #my-carousel {
     max-width: 100%;
 }
@@ -554,6 +558,18 @@ textarea::placeholder {
     font-weight: 300;
     font-size: 1.5rem;
     color: #9a9a9a;
+}
+
+/*------- Services Styles -------*/
+#services {
+    margin-top: 10rem;
+    padding: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+#services .offer-title {
+    padding-left: 5rem;
 }
 
 /*----- Footer Styles -----*/
