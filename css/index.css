@@ -689,7 +689,7 @@ textarea::placeholder {
   grid-column-start: 5;
   grid-column-end: 9;
   grid-row-start: 1;
-  grid-row-end: 6;
+  grid-row-end: 7;
   box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.35);
 }
 
@@ -704,8 +704,8 @@ textarea::placeholder {
 #patio .gallery__item--4 {
   grid-column-start: 5;
   grid-column-end: 9;
-  grid-row-start: 6;
-  grid-row-end: 11;
+  grid-row-start: 7;
+  grid-row-end: 12;
   box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.35);
 }
 
@@ -1021,6 +1021,10 @@ footer .icons a:hover {
     justify-content: space-evenly;
     margin: 1em;
     max-width: 100%;
+  }
+
+  #patio {
+    padding-top: 5rem;
   }
 }
 
