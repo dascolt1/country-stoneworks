@@ -7,7 +7,7 @@ if( filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ){
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['message'];
-    $formcontent="$name - \n$message";
+    $formcontent="$name ($email) - \n$message";
     $recipient = "oldworldstoneworks@gmail.com";
     $subject = "Potential clients";
     $mailheader = "From: $email \r\n";
