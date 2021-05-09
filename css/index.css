@@ -1011,6 +1011,129 @@ textarea::placeholder {
   box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.35);
 }
 
+/*------- Vaneer Styles -------*/
+#vaneer {
+  padding-top: 7rem;
+}
+
+#vaneer .pool-title {
+  padding: 1.5rem;
+  margin-left: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Rubik', sans-serif;
+}
+
+#vaneer .projects-pool {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(14, 5vw);
+  grid-gap: 1rem;
+  margin: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+#vaneer .gallery__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 6;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.35);
+}
+
+#vaneer .gallery__item--2 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 7;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.35);
+}
+
+#vaneer .gallery__item--3 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 11;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.35);
+}
+
+#vaneer .gallery__item--4 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 7;
+  grid-row-end: 12;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.35);
+}
+
+#vaneer .gallery__item--5 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 10;
+  grid-row-end: 14;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.35);
+}
+
+/*------ GArden Styles ------*/
+#garden {
+  padding-top: 7rem;
+}
+
+#garden .pool-title {
+  padding: 1.5rem;
+  margin-left: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Rubik', sans-serif;
+}
+
+#garden .projects-pool {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(14, 5vw);
+  grid-gap: 1rem;
+  margin: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+#garden .gallery__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.35);
+}
+
+#garden .gallery__item--2 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 7;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.35);
+}
+
+#garden .gallery__item--3 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 10;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.35);
+}
+
+#garden .gallery__item--4 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 7;
+  grid-row-end: 12;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.35);
+}
+
+#garden .gallery__item--5 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 10;
+  grid-row-end: 14;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.35);
+}
 /*----- Footer Styles -----*/
 footer {
   background-color: #1a1a1a;
