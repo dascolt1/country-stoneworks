@@ -124,6 +124,14 @@ main {
   outline: none;
 }
 
+.modal-content {
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+  color: var(--background-color);
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Rubik', sans-serif;
+}
+
 #landing .contact:hover {
   text-decoration: none;
   background-color: #1e7b1e;
