@@ -102,6 +102,18 @@
                   </a>
               </div>
         </section>
+        <div class="modal fade" id="popup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only"></span></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:green">We are fully licensed and insured.  We are also fully vaccinated! </h3>
+              </div>
+            </div>
+          </div>
+        </div>
         <section class="reviews">
             <h1 class="fadeInLeft">What Customers Are Saying...</h1>
             <div id="satisfied-customers">
@@ -208,5 +220,13 @@
             </div>
         </footer>
     </main>
+
+    <script>
+      $(function () {
+        setTimeout(function () {
+          $("#popup").modal();
+        }, 1000);
+      });
+    </script>
 </body>
 </html>

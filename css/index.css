@@ -118,6 +118,12 @@ main {
   font-family: 'Rubik', sans-serif;
 }
 
+#popup {
+  top: auto;
+  bottom: 10px;
+  outline: none;
+}
+
 #landing .contact:hover {
   text-decoration: none;
   background-color: #1e7b1e;
